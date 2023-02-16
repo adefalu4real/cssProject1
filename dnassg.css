@@ -1,0 +1,155 @@
+body    {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif
+}
+.boss{
+  background-image: url("images/bag-img.jpg");
+  background-size:calc(100%);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.boss_1{
+  display: flex;
+  flex-direction: row;
+}
+.boss_1a{
+  margin-left: 40%;
+}
+
+.logo   {
+        width: 150px;
+
+}
+
+.navbar  {
+        list-style-type: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        overflow: hidden;
+        color: #111;
+        text-align: center;
+        display: flex;
+        justify-content: end;
+    
+      }
+      
+      li {
+        float: left;
+        list-style-type: none;
+        
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(167, 24, 24);
+      }
+
+      .btn  {
+        background-color: yellow;
+        color: #111;
+        border: 0px;
+        margin: 5px 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+      .btn:hover {
+        background-color: rgb(48, 48, 15);
+      }
+      .upctn    {
+        display: flex;
+        justify-content: center;
+        
+       
+      }
+      
+      .upbox    {
+        display: block;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(80, 23, 0);
+        margin: 10px 20px;
+        padding: 1%;
+      }
+
+      .dctn {
+        display: flex;
+       justify-content: center;
+      
+      }
+
+      .dbox {
+        display: block;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(112, 41, 0);
+        margin: 10px 20px;
+        padding: 1%;
+      }
+
+      /* #cake1{
+        margin: 50px 50px 10px 50px;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+      } */
+      .child1{
+        height: 70%;
+        /* background-color: aqua; */
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .child2{
+        display: flex;
+        /* background-color: burlywood; */
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -15%;
+        
+      }
+      .child2_a{
+        width: 70%;
+        /* background-color: chocolate; */
+      }
+      /* .child2_b{
+        background-color: firebrick;
+
+      } */
+      .child1-img{
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+
+      }
+
+     .boss_2{
+      background-color: rgb(27, 16, 16);
+      padding-bottom: 20px;
+      
+     }
+     .son1{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 40px;
+      padding-right: 40px;
+     }
+     .son1_b{
+      color: rgb(175, 175, 37);
+     }
+     #boderimage{
+      border: 7px solid transparent;
+      padding: 10px;
+      border-image: url(donot_1.jpg) 20 round;
+
+     }
